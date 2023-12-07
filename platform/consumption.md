@@ -1,8 +1,8 @@
 ---
 title: Consumption
-description: 
+description: Consumption, as opposed to production
 published: true
-date: 2023-12-07T14:56:12.953Z
+date: 2023-12-07T14:56:52.016Z
 tags: platform, data
 editor: markdown
 dateCreated: 2023-12-07T14:56:12.953Z
