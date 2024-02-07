@@ -1,19 +1,19 @@
 ---
 title: Energie
-description: Korte omschrijving
+description: + Productie / - Consumptie
 published: true
-date: 2024-02-07T09:25:46.671Z
+date: 2024-02-07T15:50:10.588Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-07T09:15:19.972Z
 ---
 
-Omschrijving
+De hoeveelheid energie in- of verkocht
 
 ## Positief energiesaldo
 
-Uitleg
+Energie geproduceerd en verkocht
 
 ## Negatief energiesaldo
 
-Uitleg
+Energie geconsumeerd en gekocht
