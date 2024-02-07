@@ -1,14 +1,12 @@
 ---
 title: Tarieven
-description: 
+description: Korte omschrijving
 published: true
-date: 2024-02-01T09:53:35.266Z
+date: 2024-02-07T09:27:13.788Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T09:53:35.266Z
 ---
-
-# Tarieven
 
 Omschrijving
 
