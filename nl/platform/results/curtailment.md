@@ -1,8 +1,8 @@
 ---
 title: Curtailment
-description: Korte omschrijving
+description: Afschakelen van productie
 published: true
-date: 2024-02-07T15:34:10.165Z
+date: 2024-02-07T15:34:22.328Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T09:52:01.560Z
