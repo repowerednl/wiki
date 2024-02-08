@@ -1,19 +1,17 @@
 ---
 title: Tarieven
-description: Korte omschrijving
+description: Dienstverlening van Repowered
 published: true
-date: 2024-02-07T09:27:13.788Z
+date: 2024-02-08T10:36:56.329Z
 tags: 
 editor: markdown
 dateCreated: 2024-02-01T09:53:35.266Z
 ---
 
-Omschrijving
+Tarieven voor de dienstverlening van Repowered
 
 ## 'Energy Service Fee'
-
-Uitleg
+Tarief per MWh geleverde of afgenomen energie
 
 ## 'Fixed Fee'
-
-Uitleg
+Maandelijkse kosten voor de dienstverlening
