@@ -2,7 +2,7 @@
 title: Release notes
 description: Versie informatie van het Repower Smart Energy platform
 published: true
-date: 2024-03-14T16:37:57.208Z
+date: 2024-04-30T16:37:57.208Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-13T13:06:08.526Z
