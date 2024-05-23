@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2024-05-22T13:00:00.000Z
 ---
 
-Een 'batterijcyclus' is een _volledige_ ontladings en oplading van een batterij. Elke keer dat dit proces plaatsvindt, wordt het geteld als één cyclus. De levensduur van een batterij wordt vaak uitgedrukt in het aantal laadcycli dat de batterij kan doorstaan voordat de capaciteit merkbaar vermindert.
+Een 'batterijcyclus' is een _volledige_ ontlading én oplading van een batterij. Elke keer dat dit proces plaatsvindt, wordt geteld als één cyclus. De levensduur van een batterij wordt vaak uitgedrukt in het aantal cycli dat de batterij kan doorstaan voordat de capaciteit merkbaar vermindert.
 
 In de praktijk zal een batterij zelden geheel ont- of opladen. De getoonde waarden voor aantal doorgelopen cycli worden daarom berekend door alle ontladingen als percentage van de capacitieit gedurende de geselecteerde periode bij elkaar op te tellen.
 
