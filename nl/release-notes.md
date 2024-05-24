@@ -12,7 +12,7 @@ _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit
 
 # 24 mei: Versie 2.1.12
 
-- Via de nieuwe [Assets](/assets) pagina kunnen historische meetgegevens van assets bekeken worden.
+- Via de nieuwe Assets pagina kunnen historische meetgegevens van assets bekeken worden.
 - Voor batterijen is op deze pagina nu ook het aantal doorlopen laadcycli te zien voor de geselecteerde periode
 - De assetstatus wordt nu aangegeven met de kleur van bolletje links van de asset naam. Beweeg er met je muis op voor meer informatie.
 
