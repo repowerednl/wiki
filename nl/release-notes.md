@@ -2,13 +2,16 @@
 title: Release notes
 description: Versie informatie van het Repower Smart Energy platform
 published: true
-date: 2024-05-24T11:18:00.000Z
+date: 2024-05-30T11:17:10.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-13T13:06:08.526Z
 ---
 
 _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + R)._
+
+# 30 mei: Patch 2.1.12
+Klanten met grote portfolio's konden last hebben van lange laadtijden; dit is nu opgelost.
 
 # 24 mei: Versie 2.1.12
 
