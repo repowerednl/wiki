@@ -11,7 +11,3 @@ dateCreated: 2024-06-17T16:00:00.000Z
 ## Verwachte jaarlijkse besparing 
 
 Uitgebreidere uitleg
-
-## Verwachte totale besparing 
-
-Uitgebreidere uitleg
