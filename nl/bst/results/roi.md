@@ -8,6 +8,4 @@ editor: markdown
 dateCreated: 2024-06-17T16:00:00.000Z
 ---
 
-## Terugverdientijd
-
-Uitgebreidere uitleg
+Het aantal jaren waarin de aanschaf van de batterij terugverdiend is

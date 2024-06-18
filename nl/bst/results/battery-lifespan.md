@@ -8,6 +8,4 @@ editor: markdown
 dateCreated: 2024-06-17T16:00:00.000Z
 ---
 
-## Levensduur batterij
-
-Uitgebreidere uitleg
+De technische levensduur bij de gesimuleerde inzet

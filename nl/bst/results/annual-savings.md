@@ -8,8 +8,4 @@ editor: markdown
 dateCreated: 2024-05-23T16:00:00.000Z
 ---
 
-Dit is een sjabloon
-
-## Verwachte jaarlijkse besparing 
-
-Uitleg
+Het verschil tussen de situatie met en zonder batterij bij een dynamisch contract

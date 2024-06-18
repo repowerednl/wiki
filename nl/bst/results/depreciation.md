@@ -8,6 +8,4 @@ editor: markdown
 dateCreated: 2024-06-17T16:00:00.000Z
 ---
 
-## Afschrijving per jaar
-
-Uitgebreidere uitleg
+De totale investering gedeeld door de levensduur van de batterij
