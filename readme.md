@@ -14,9 +14,9 @@ These are the pages built to explain terms and concepts used in the Repowered ap
 - If you agree with the permissions choose **Authorize desktop**<br>
 - Use the 2FA method you chose when registering the account.<br>
 - Allow GitHub Desktop to open links from Github<br>
-- Configure Git by checking/adding your credential<br>
+- Configure Git by checking/adding your credentials<br>
 - In the application you can choose **Clone a repository from the internet**<br>
-- Select/search  repoweredn/wiki and then **Clone**<br>
+- Select/search repoweredn/wiki and then **Clone**<br>
 
 You are now ready to start contributing to the Wiki!
 
@@ -25,9 +25,9 @@ You are now ready to start contributing to the Wiki!
 <img src="assets/image-1.png"> <br>
 ### This makes sure that if someone made changes after your last change, they are incorporated into your local version.
 
-- With GitHub Desktop open ande the Wiki repository selected, choose **Show in Explorer**
+- With GitHub Desktop open the Wiki repository selected, choose **Show in Explorer**
 You will see some folders.
-- Open the **nl** folder. */bst* and likewise for the */platform.*
+- Open the **nl** folder and then */bst* or alternatively the */platform.*
 - For example, lets edit the *annual-savings.md* entry.
 - Go to *bst/results/* 
 - Then right click *annual-savings.md* and choose **edit with notepad/bewerken met kladblok**
