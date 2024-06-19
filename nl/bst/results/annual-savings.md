@@ -9,3 +9,4 @@ dateCreated: 2024-05-23T16:00:00.000Z
 ---
 
 Het verschil tussen de situatie met en zonder batterij bij een dynamisch contract
+Edited
