@@ -39,4 +39,4 @@ You will see some folders.
 - If everything is correct, choose **Commit to Main**
 - After that choose: **Push Origin** 
 
-Now the changes has been made. If the tooltip is currently in use by an application the change should be visible almost immediately
+Now the changes have been made. If the tooltip is currently in use by an application the change should be visible almost immediately
