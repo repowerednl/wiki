@@ -8,4 +8,4 @@ editor: markdown
 dateCreated: 2024-06-17T16:00:00.000Z
 ---
 
-The amount of charge and discharges between 20% and 80% per day
+The amount of charges and discharges between 20% and 80% per day
