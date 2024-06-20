@@ -4,39 +4,66 @@ These are the pages built to explain terms and concepts used in the Repowered ap
 ### Setup
 - Create a [GitHub.com account](https://www.github.com/) <br>
 - Ask for access to the [repository](https://github.com/repowerednl/wiki) (contact me (a.vanderveen@repowered.nl) or anyone else from the data team)<br>
-- Download GitHub Desktop for [Windows](https://central.github.com/deployments/desktop/desktop/latest/win32) or [Mac](https://central.github.com/deployments/desktop/desktop/latest/darwin)<br>
-- Install it<br>
-- After launching the application choose **Sign in to GitHub.com**<br>
+- Open the [repository](https://github.com/repowerednl/wiki)
+- In the repository you will see folders and files:
 
-<img src="assets/image.png" width="" height="300">
+<img src=assets/image.png width="400px" >
 
-- Choose **continue**<br>
-- If you agree with the permissions choose **Authorize desktop**<br>
-- Use the 2FA method you chose when registering the account.<br>
-- Allow GitHub Desktop to open links from Github<br>
-- Configure Git by checking/adding your credentials<br>
-- In the application you can choose **Clone a repository from the internet**<br>
-- Select/search repoweredn/wiki and then **Clone**<br>
+We currently have 2 applications using this Wiki. 
+The [platform](https://mijn.repowered.nl) and the [bst](https://bst.repowered.nl)
+
+To edit the English entries you go directly into either */platform* or */bst*. In this example we will edit edit an English entry from the */bst* wiki.
+
+Go to */bst/results/* and then open **battery-cycles.md** 
+
+![alt text](assets/image-1.png)
+
+You can see this entry is in Dutch. We are going to change it to English. Choose **edit** (pencil icon) in the top right side of the screen: 
+
+![alt text](assets/image-2.png)
+
+After clicking the screen will turn into a texteditor:
+
+![alt text](assets/image-3.png)
+
+There are two parts here worth noting. Between the dashes is what we call the meta data: 
+
+`---`<br>
+`title: Cycli` <br>
+`description: Het aantal keren op-en ontladen tussen de 20% en 80% per dag` <br>
+`published: true` <br>
+`date: 2024-06-17T16:00:00.000Z` <br>
+`tags: ` <br>
+`editor: markdown` <br>
+`dateCreated: 2024-06-17T16:00:00.000Z` <br>
+`---`<br>
+
+If needed change the title and description.
+
+**Always set the date after editing!**
+
+Below the second *---* is where the entry begins:
+
+`Het aantal keren op-en ontladen tussen de 20% en 80% per dag`
+
+After making the changes this is what we have:
+
+![alt text](assets/image-4.png)
+
+If we are happy with the result we can choose **Commit changes** in the top right side:
+
+![alt text](assets/image-5.png)
+
+In the next window add a description of what changes have been made. Make sure the **Commit Email** is correct and the selected option is **Commit directly to the main branch**.
+Then choose **Commit Changes**:
+
+![alt text](assets/image-6.png)
+
+You will be taken back the visual representation of the entry:
+
+![alt text](assets/image-7.png)
+
+
 
 You are now ready to start contributing to the Wiki!
 
-### Contributing 
-### ATTENTION: Before making changes, **ALWAYS** pull first. You can do this in GitHub Desktop by clicking **Fetch Origin** 
-<img src="assets/image-1.png"> <br>
-### This makes sure that if someone made changes after your last change, they are incorporated into your local version.
-
-- With GitHub Desktop open the Wiki repository selected, choose **Show in Explorer**
-You will see some folders.
-- Open the **nl** folder and then */bst* or alternatively the */platform.*
-- For example, lets edit the *annual-savings.md* entry.
-- Go to *bst/results/* 
-- Then right click *annual-savings.md* and choose **edit with notepad/bewerken met kladblok**
-- Every entry starts with meta data encapsulated between 3 dashes *--- META ---*
-- This can be ignored. Below the second *---* is where the entry starts.
-- Use the syntax for [markdown](https://www.markdownguide.org/basic-syntax/)
-- Make the changes and then save the file. 
-- Open **Github Desktop**, you should see the changed file and its changes
-- If everything is correct, choose **Commit to Main**
-- After that choose: **Push Origin** 
-
-Now the changes have been made. If the tooltip is currently in use by an application the change should be visible almost immediately
