@@ -1,6 +1,6 @@
 ---
-title: Afschrijving per jaar
-description: De totale investering gedeeld door de levensduur van de batterij
+title: Depreciation per year
+description: Total investment divided by the lifespan of the battery
 published: true
 date: 2024-06-17T16:00:00.000Z
 tags: 
@@ -8,4 +8,4 @@ editor: markdown
 dateCreated: 2024-06-17T16:00:00.000Z
 ---
 
-De totale investering gedeeld door de levensduur van de batterij
+Total investment divided by the lifespan of the battery
