@@ -51,6 +51,11 @@ Below the second *---* is where the entry begins:
 
 `Het aantal keren op-en ontladen tussen de 20% en 80% per dag`
 
+We will change it into:
+
+`The amount of charge and discharges between 20% and 80% per day`
+
+
 After making the changes this is what we have:
 
 ![alt text](assets/image-4.png)
