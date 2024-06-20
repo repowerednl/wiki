@@ -14,6 +14,7 @@ The [platform](https://mijn.repowered.nl) and the [bst](https://bst.repowered.nl
 
 To edit the English entries you go directly into either */platform* or */bst*. In this example we will edit edit an English entry from the */bst* wiki.
 
+
 Go to */bst/results/* and then open **battery-cycles.md** 
 
 ![alt text](assets/image-1.png)
@@ -63,7 +64,13 @@ You will be taken back the visual representation of the entry:
 
 ![alt text](assets/image-7.png)
 
+If the tooltip is currently in use on any application, the change should be visible almost instantaneously. 
 
+To edit the Dutch (nl) entries, carry out the same instructions for the files in the */nl* folder.
 
-You are now ready to start contributing to the Wiki!
+You are now ready to start contributing to the Wiki.
+## Document owners
+
+[Battery Simulation Tool](https://bst.repowered.nl): [Arjan](a.vanderveen@repowered.nl)<br>
+[Platform](https://mijn.repowered.nl): [Kjell](k.boeije@repowered.nl)
 
