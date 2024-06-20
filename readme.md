@@ -7,7 +7,8 @@ These are the pages built to explain terms and concepts used in the Repowered ap
 
 ### Contributing
 - Open the [repository](https://github.com/repowerednl/wiki)
-- In the repository you will see folders and files:
+
+In the repository you will see folders and files:
 
 <img src=assets/image.png width="400px" >
 
