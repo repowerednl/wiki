@@ -30,7 +30,6 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 - De beschikbaarheid van de aansluiting voor (terug)levering wordt nu getoond bij de resultaten.
 
 #### Bugfixes
-
 - Het is nu mogelijk om simulaties met hoofdletters te zoeken. 
 - Het is nu mogelijk om een PV installatie toe te voegen i.c.m geuploade ODN data
 
