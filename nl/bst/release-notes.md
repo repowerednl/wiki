@@ -12,7 +12,8 @@ dateCreated: 2024-06-17T13:30:00.000Z
 
 _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + R)._
 
-## X juli: Versie 0.1.30
+## 7 juli: Versie 1.0.00
+- Tooltips worden nu gevuld met inhoud uit de Wiki
 - Typische zomer- en winterdag SOC (state of charge) van het lopende jaar toegevoegd aan de resultaten pagina. 
 - Demo (trial) label is toegevoegd. Dit is voorsorteren op de daadwerkelijke demo versie. 
 - Cypress E2E testing is toegevoegd.
