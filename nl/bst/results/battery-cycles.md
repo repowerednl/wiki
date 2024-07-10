@@ -1,6 +1,6 @@
 ---
 title: Cycli
-description: Het aantal keren op-en ontladen tussen de 5% en 95% per dag
+description: Het aantal keren op-en ontladen tussen de 5% en 95%
 published: true
 date: 2024-06-17T16:00:00.000Z
 tags: 
