@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2024-03-13T13:06:08.526Z
 ---
 
-_Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (`Ctrl + Shift + R`)._
+_Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
 
 # 13 augusttus; Versie 2.1.36
 
