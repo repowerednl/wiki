@@ -2,13 +2,19 @@
 title: Release notes
 description: Versie informatie van het Repower Smart Energy platform
 published: true
-date: 2024-06-10T14:30:00.000Z
+date: 2024-08-13T16:05:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-13T13:06:08.526Z
 ---
 
-_Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + R)._
+_Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
+
+# 13 augustus: Versie 2.1.36
+
+- Vernieuwde export functionaliteit voor resultaten en meetgegevens: download een Excel bestand met data op kwartierniveau.
+- Wijzig je naam, e-mailadres en wachtwoord via [Instellingen](/account/settings).
+- Bugfixes en verbeteringen aan de weergave van grafieken.
 
 # 10 juni: Versie 2.1.21
 
@@ -22,13 +28,3 @@ _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit
 - Voor batterijen is op deze pagina nu ook het aantal doorlopen laadcycli te zien voor de geselecteerde periode
 - De assetstatus wordt nu aangegeven met de kleur van bolletje links van de asset naam. Beweeg er met je muis op voor meer informatie.
 - Patch 30 mei: Klanten met grote portfolio's konden last hebben van lange laadtijden; dit is nu opgelost.
-
-# 14 mei: Versie 2.1.7
-
-- EAN van assets is inzichtelijk rechtsonder in elke grafiek
-- Meer informatie voor gebruikers over updates aan het platform middels deze pagina
-
-# 6 maart: Versie 2.1.0
-
-- Het is nu mogelijk om meerdere portfolio's in te zien
-- We kunnen toegang tot gegevens per klant nu op een exacter niveau regelen
