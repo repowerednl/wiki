@@ -2,13 +2,18 @@
 title: Release notes
 description: Versie informatie van het Repower Smart Energy platform
 published: true
-date: 2024-08-13T16:05:00.000Z
+date: 2024-09-03T18:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-13T13:06:08.526Z
 ---
 
-_Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
+_Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt deze achter op de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
+
+# 3 september: Versie 2.2.0
+
+- Onbalans setpoints en FCR allocaties zijn nu te zien via [Assets > Analyse](/assets/analysis). Beweeg met de muis over de tijdlijn voor gedetailleerde informatie.
+- Verschillende kleine updates rondom navigatie.
 
 # 13 augustus: Versie 2.1.36
 
@@ -21,10 +26,3 @@ _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Komt dit
 - Responsive design voor telefoons en andere kleine schermen.
 - Nieuwe asset pagina's voor algemene info en verwachte omzet.
 - Facturen zijn nu inzichtelijk via [Mijn Repowered](/account).
-
-# 24 mei: Versie 2.1.12
-
-- Via de nieuwe Assets pagina kunnen historische meetgegevens van assets bekeken worden.
-- Voor batterijen is op deze pagina nu ook het aantal doorlopen laadcycli te zien voor de geselecteerde periode
-- De assetstatus wordt nu aangegeven met de kleur van bolletje links van de asset naam. Beweeg er met je muis op voor meer informatie.
-- Patch 30 mei: Klanten met grote portfolio's konden last hebben van lange laadtijden; dit is nu opgelost.
