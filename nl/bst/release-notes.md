@@ -2,7 +2,7 @@
 title: Release notes
 description: Versie informatie van de Battery Simulation Tool
 published: true
-date: 2024-06-17T13:30:00.000Z
+date: 2024-09-19T14:30:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-06-17T13:30:00.000Z
