@@ -12,6 +12,18 @@ dateCreated: 2024-06-17T13:30:00.000Z
 
 _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + R)._
 
+## 3 september: Versie 1.3.00
+
+### Features
+
+- Added demo functionality. Demo-users can be created. Users have a simulation quotum and a limited window of time in which to use it. Features are limited in this mode.
+
+### Bugfixes
+
+- Fixed a bug regarding passing the value of the selected financial year.
+- Fixed the Forgot password functionality
+- Fixed a bug where changing the year in an existing simulation did not trigger the calculation step in the wizard. 
+
 ## 7 juli: Versie 1.0.00
 - Tooltips worden nu gevuld met inhoud uit de Wiki
 - Typische zomer- en winterdag SOC (state of charge) van het lopende jaar toegevoegd aan de resultaten pagina. 
