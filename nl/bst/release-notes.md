@@ -15,16 +15,16 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 ## 3 september: Versie 1.3.00
 
 ### Features
-
 - Added demo functionality. Demo-users can be created. Users have a simulation quotum and a limited window of time in which to use it. Features are limited in this mode.
 
 ### Bugfixes
-
 - Fixed a bug regarding passing the value of the selected financial year.
 - Fixed the Forgot password functionality
 - Fixed a bug where changing the year in an existing simulation did not trigger the calculation step in the wizard. 
 
 ## 7 juli: Versie 1.0.00
+
+### Features
 - Tooltips worden nu gevuld met inhoud uit de Wiki
 - Typische zomer- en winterdag SOC (state of charge) van het lopende jaar toegevoegd aan de resultaten pagina. 
 - Demo (trial) label is toegevoegd. Dit is voorsorteren op de daadwerkelijke demo versie. 
@@ -42,7 +42,7 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 - Extra kleuren toegevoegd voor gebruik in grafieken (#ff870a, #1fc84a en '#408c8b')
 - De beschikbaarheid van de aansluiting voor (terug)levering wordt nu getoond bij de resultaten.
 
-#### Bugfixes
+### Bugfixes
 - De tooltips zijn nu uitgelijnd met de bijbehorende tekst
 - Het is nu mogelijk om simulaties met hoofdletters te zoeken. 
 - Het is nu mogelijk om een PV installatie toe te voegen i.c.m geuploade ODN data
@@ -54,5 +54,5 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 - Grafiek met de verwachte SOC (State of Charge) van een typische zomer- en winterdag
 - Het is nu mogelijk om screenshots te maken van de gebruikte tabellen
 
-#### Bugfixes
+### Bugfixes
 - Het bewerken van een bestaande simulatie mét een geüpload bestand is nu mogelijk.
