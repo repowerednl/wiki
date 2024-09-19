@@ -15,12 +15,13 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 ## 3 september: Versie 1.3.00
 
 ### Features
-- Added demo functionality. Demo-users can be created. Users have a simulation quotum and a limited window of time in which to use it. Features are limited in this mode.
+- Demo functionaliteit toegevoegd. Demo profielen kunnen nu worden aangemaakt. Gebruikers hebben hierbij een simulatie quotum welke een bepaalde tijd zijn te gebruiken. Hierbij zijn bepaalde functies uitgeschakeld. Na deze tijd heeft de gebruiker geen toegang meer tot de BST.
+
 
 ### Bugfixes
-- Fixed a bug regarding passing the value of the selected financial year.
-- Fixed the Forgot password functionality
-- Fixed a bug where changing the year in an existing simulation did not trigger the calculation step in the wizard. 
+- De waarde van het geselecteerde marktjaar wordt nu goed doorgegeven. 
+- Het probleem met de 'wachtwoord vergeten' functie is verholpen.
+- Het veranderen van het marktjaar in een bestaande simulatie zorgt er voor dat de tussentijdse berekening opnieuw wordt gedaan.
 
 ## 7 juli: Versie 1.0.00
 
