@@ -20,7 +20,7 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 - De versie wordt nu meegenomen als release in Sentry.
 - De tekst in de tussentijdse berekening stap is aangepast om aan te geven van welke tijdsperiode de kosten zijn gebruikt
 - De tekst is aangepast in de financiele situatie tabel. 
-- Er is een tooltip toegevoegd voor de 'onbalanskosten' in de tabel van de financiele 
+- Er is een tooltip toegevoegd voor de 'onbalanskosten' in de tabel van de financiele situatie
 - Er zijn unit tests toegevoegd voor de services, helpers en composables
 - Er is een 'datepicker' aan stap 1 toegevoegd om het eindjaar én de eindmaand van het financiele jaar te kiezen waarvan de kosten zullen worde gebruikt in de berekening
 - De data in de batterij grafiek wordt nu dynamisch weergegeven
