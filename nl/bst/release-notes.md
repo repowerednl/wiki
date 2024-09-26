@@ -15,15 +15,16 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 ## 27 september: Versie 1.4.00
 
 ### Features
-- Incorporated the new version of the API
-- Reduced the blur obfuscating the 'financiele situatie' when using the BST as a demo user.
-- Added the version as release property to Sentry
-- Adjusted the text in the calculation step to relay the time period used for calculated costs
-- Adjusted the text in the financiele resultaten in the results views
-- Added a tooltip concerning 'onbalanskosten'
-- Added unit tests for services, helpers and composables.
-- Added a datepicker to step 1 that allows picking a year and month for use as an end date. 
-- Dynamically represent data in the Battery graph. 
+- Nieuwe versie van de API is in gebruik genomen.
+- De mate van het vervagen van de tekst is verminderd bij de financiele situatie wanneer de gebruiker een demo profiel heeft 
+- De versie wordt nu meegenomen als release in Sentry.
+- De tekst in de tussentijdse berekening stap is aangepast om aan te geven van welke tijdsperiode de kosten zijn gebruikt
+- De tekst is aangepast in de financiele situatie tabel. 
+- Er is een tooltip toegevoegd voor de 'onbalanskosten' in de tabel van de financiele 
+- Er zijn unit tests toegevoegd voor de services, helpers en composables
+- Er is een 'datepicker' aan stap 1 toegevoegd om het eindjaar én de eindmaand van het financiele jaar te kiezen waarvan de kosten zullen worde gebruikt in de berekening
+- De data in de batterij grafiek wordt nu dynamisch weergegeven
+
 
 ## 3 september: Versie 1.3.00
 
