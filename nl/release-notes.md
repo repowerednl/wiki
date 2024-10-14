@@ -2,18 +2,13 @@
 title: Release notes
 description: Versie informatie van het Repower Smart Energy platform
 published: true
-date: 2024-10-10T14:00:00.000Z
+date: 2024-09-03T18:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-13T13:06:08.526Z
 ---
 
 _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt deze achter op de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
-
-# 14 oktober: versie 2.23.3
-
-- Debounce is functie toegevoegd aan bepaalde API calls om gelijktijdige verzoeken juist te kunnen verwerken.
-- Bij elke relevante call word een UID opgeslagen in de cache. Als er dan een response komt dan word het doorgegeven UID vergeleken met dit opgeslagen UID. Als deze niet overeenkomen dan wordt het verzoek geannuleerd. Dit voorkomt dat de verkeerde data wordt getoond. 
 
 # 3 september: Versie 2.2.0
 
