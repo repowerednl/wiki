@@ -10,9 +10,9 @@ dateCreated: 2024-03-13T13:06:08.526Z
 
 _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt deze achter op de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
 
-# 14 oktober Versie 2.23.3
+# 14 oktober: Versie 2.23.3
 
-- Er is een bugfix doorgevoerd waardoor altijd de juiste informatie wordt getoond.  
+- Er is een bug opgelost waardoor soms de verkeerde grafiekdata werd getoond als gebruikers snel door datums bladerde.
 
 # 3 september: Versie 2.2.0
 
