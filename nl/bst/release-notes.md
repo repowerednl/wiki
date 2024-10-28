@@ -22,7 +22,7 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 - De tekst is aangepast in de financiele situatie tabel. 
 - Er is een tooltip toegevoegd voor de 'onbalanskosten' in de tabel van de financiele situatie
 - Er zijn unit tests toegevoegd voor de services, helpers en composables
-- Er is een 'datepicker' aan stap 1 toegevoegd om het eindjaar én de eindmaand van het financiele jaar te kiezen waarvan de kosten zullen worde gebruikt in de berekening
+- Er is een 'datepicker' aan stap 1 toegevoegd om het eindjaar én de eindmaand van het financiele jaar te kiezen waarvan de kosten zullen worden gebruikt in de berekening
 - De data in de batterij grafiek wordt nu dynamisch weergegeven
 
 
