@@ -1,5 +1,5 @@
 ---
-title: Netto 
+title: Netto contante waarde cashflow
 description: De cashflow van de batterij is berekend m.b.v. price forward curves van Montel. Zij publiceren toekomstige prijzen voor verschillende marktrepresentaties.
 published: true
 date: 2024-11-06T11:08:00.000Z
