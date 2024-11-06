@@ -8,8 +8,8 @@ editor: markdown
 dateCreated: 2024-11-06T13:00:00.000Z
 ---
 
-De cashflow van de batterij is berekend m.b.v. price forward curves van Montel. Zij publiceren toekomstige prijzen voor verschillende marktrepresentaties. We gebruiken scenario “Central”. In deze cashflow zijn de volgende onderdelen meegenomen:
-
+De cashflow van de batterij is berekend m.b.v. price forward curves van Montel. Zij publiceren toekomstige prijzen voor verschillende marktrepresentaties. We gebruiken scenario “Central”. In deze cashflow zijn de volgende onderdelen meegenomen:  
+  
 Kosten:
 
 - CAPEX
