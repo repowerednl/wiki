@@ -21,3 +21,5 @@ Kosten:
 Inkomsten:
 
 - Inkomsten door handel op de onbalansmarkt
+
+Download de Excel voor een uitgebreid overzicht.
