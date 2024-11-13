@@ -12,27 +12,79 @@ dateCreated: 2024-06-17T13:30:00.000Z
 
 _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + R)._
 
+## 14 november: Versie 1.5.00
+Vandaag hebben we een nieuwe versie van de BST beschikbaar gemaakt. Het is nu mogelijk om een cashflow diagram te maken o.b.v. Price Forward Curves van Montel en je kunt de inzet van een batterij simuleren op de EPEX day-ahead markt. Daarnaast hebben we een veel gevraagde feature toegevoegd: Geavanceerde instellingen. Hieronder een overzicht van alle updates:
+- Cashflow diagram toegevoegd waarin de netto contante waarde van het batterijsysteem wordt weergegeven wanneer deze wordt ingezet op de onbalansmarkt. De opbrengsten in de toekomst zijn berekend m.b.v. Montel Price Forward Curves. Klik op deze link (Price Forward Curves for energy trading risk management) voor meer info. Op deze manier kunnen we een betere inschatting geven van de terugverdientijd van de investering.
+- Strategie toegevoegd waarbij de inzet van de batterij wordt geoptimaliseerd op de EPEX day-ahead markt. Met deze strategie wordt elektriciteit zo goedkoop mogelijk ingekocht en zo duur mogelijk verkocht op de day-ahead markt. Deze strategie wordt (nog) niet toegepast op het Repowered platform wat betekent dat het geen algoritme is dat ook in de praktijk wordt toegepast (zoals dat wel het geval is met de strategie voor de onbalansmarkt).
+- Navigatie menu toegevoegd waarmee de gebruiker kan terugkeren naar het hoofdscherm met alle simulaties en een nieuws en contact pagina met informatie over de nieuwste updates.
+
+Ten slotte hebben we geavanceerde instellingen toegevoegd. We geven gebruikers nu nog meer controle over simulaties door meer inputs zelf te kunnen kiezen en invullen. De geavanceerde instellingen kunnen worden geselecteerd in stap 7 en bevatten de volgende parameters:
+- Kosten aansturing en optimalisatie
+- Vaste maandelijkste kosten (NIEUW: Je kan er nu voor kiezen om additionele vaste maandelijkse kosten mee te nemen)
+- Investeringsjaar (NIEUW: Het jaar waarin de investering wordt gedaan (jaar 0). Operatie start vanaf 1 januari in het daarop volgende jaar. Dit wordt meegenomen in het cashflow overzicht wanneer de financiele optimalisatie onbalansmarkt wordt gekozen)
+- Disconteringsvoet (NIEUW): Het rekenpercentage dat gebruikt wordt om toekomstige kasstromen contant te maken, om de netto contante waarde te bepalen.
+- EIA toepassing
+- Onbalansfactor levering (NIEUW): De factor waarmee een inschatting wordt gemaakt van de onbalanskosten voor levering.
+- Onbalansfactor teruglevering (NIEUW): De factor waarmee een inschatting wordt gemaakt van de onbalanskosten voor terugleveren.
+- Cycli totale levensduur NIEUW: De technische levensduur van de batterij. Deze is afgeschreven na het uitvoeren van dit aantal cycli.
+- Teruglevercapaciteit nieuwe situatie (NIEUW): Vul in wanneer de teruglevercapaciteit verandert t.o.v. de huidige situatie.
+- Afnamecapaciteit nieuwe situatie (NIEUW): Vul in wanneer de afnamecapaciteit veranderd t.o.v. de huidige situatie. Op deze manier kan rekening worden gehouden met verschillende transportkosten in de huidige en nieuwe situatie.
+
+## 7 november: Bericht over nieuwe features in versie 1.5.00
+We gaan volgende week een aantal grote updates doorvoeren in de BST. Ik wil jullie alvast op de hoogte brengen van deze updates en de impact die het zal hebben op de resultaten van simulaties.
+
+# Cashflow diagram over de levensduur van de batterij met inzet op de onbalansmarkt
+De afgelopen maanden zijn we bezig geweest met het ontwikkelen van een nieuwe methode voor het berekenen van de terugverdientijd en totale inkomsten van een batterij welke op de onbalansmarkt wordt ingezet. We gaan Price Forward Curves (PFC) van Montel inzetten om een betere inschatting te kunnen maken van de toekomstige inkomsten. Montel is in Europa een gerenommeerde partij voor het leveren van energy market intelligence en het maken van toekomstige markt representaties. We gaan de forward curve van scenario ‘Central’ om een betere inschatting te kunnen geven van de terugverdientijd van een batterij welke op de onbalansmarkt handelt. Elk kwartaal update Montel deze PFC om altijd up-to-date curves te kunnen leveren waar ontwikkelingen op de energiemarkten in zijn meegenomen. Meer informatie over deze PFC en Montel is hier te vinden.
+
+De volgende onderdelen worden meegenomen in de berekening:
+Kosten:
+- Investeringskosten (CAPEX)
+- Operationele kosten (1% van CAPEX),
+- Aansturing en optimalisatie
+- Transportkosten (We gaan prognose voor toekomstige transportkosten op een later moment toevoegen)
+- Vaste maandelijkse kosten (eventueel)
+
+Inkomsten:
+- Inkomsten door handel op de onbalansmarkt
+
+Ten slotte, het wordt mogelijk om een Excel bestand te downloaden waar deze kosten en inkomsten per jaar in worden weergegeven.
+
+# Strategie Day-ahead markt
+We hebben de afgelopen maanden ook gewerkt aan een nieuwe strategie: optimalisatie op de day-ahead markt. Ten eerste is het belangrijk om te vermelden dat we (nog) geen batterijen daadwerkelijk aansturen op deze markt. Om al wel inzicht te kunnen bieden wat een batterij op deze markt zou kunnen verdienen hebben we een optimalisatie algoritme ontwikkelt speciaal voor de BST. Deze geeft niet perfect weer hoe de batterij in de praktijk zou handelen, maar zit hier wel in de buurt (90-100%). Daarnaast hebben we een aantal aannames moeten doen, welke we in de toekomst verder zullen aanscherpen en verbeteren.
+
+In het financiële overzicht worden de kosten voor inkoop van elektriciteit door de batterij opgeteld bij de ‘Leveringskosten stroom’ en de extra inkomsten worden opgeteld bij ‘Inkomsten teruglevering’.
+
+Met deze update kun je straks dus kiezen tussen 3 verschillende optimalisaties:
+- Financiële optimalisatie onbalansmarkt                 (voorheen: Financiële optimalisatie)
+- Energetische optimalisatie zelflevering                (voorheen: Zelfvoorzienendheid)
+- Financiële optimalisatie day-ahead markt               (Nieuw)
+
+Ik houd jullie op de hoogte wanneer deze features volgende week zijn toegevoegd. Als jullie in de tussentijd vragen of opmerkingen hebben dan hoor ik het graag.
+
 ## 27 september: Versie 1.4.00
 
 ### Features
-- Nieuwe versie van de API is in gebruik genomen.
-- De mate van het vervagen van de tekst is verminderd bij de financiele situatie wanneer de gebruiker een demo profiel heeft 
-- De versie wordt nu meegenomen als release in Sentry.
-- De tekst in de tussentijdse berekening stap is aangepast om aan te geven van welke tijdsperiode de kosten zijn gebruikt
-- De tekst is aangepast in de financiele situatie tabel. 
-- Er is een tooltip toegevoegd voor de 'onbalanskosten' in de tabel van de financiele situatie
-- Er zijn unit tests toegevoegd voor de services, helpers en composables
-- Er is een 'datepicker' aan stap 1 toegevoegd om het eindjaar én de eindmaand van het financiele jaar te kiezen waarvan de kosten zullen worden gebruikt in de berekening
-- De data in de batterij grafiek wordt nu dynamisch weergegeven
+Nu de zomerperiode achter ons is draait de ontwikkeling van de BST weer op volle toeren. We werken aan een aantal grote updates welke in de komende maand beschikbaar zullen komen. 
+
+Vanmorgen hebben we de volgende updates doorgevoerd:
+- We hebben de mogelijkheid toegevoegd om simulaties uit te voeren met recente markt data uit 2024. In stap 1 bij het aanmaken van een nieuwe simulatie kun je nu een maand te selecteren van januari 2020 t/m juli 2024. Bij het selecteren van bijv. juli 2024 zal automatisch marktdata worden opgehaald tot een jaar terug, in dit geval van augustus 2023 t/m 2024. Zo kunnen nu simulaties uitgevoerd worden met de meest recente beschikbare data. De marktdata zullen we periodiek blijven updaten.
+- We hebben een aantal tekstuele wijzigingen doorgevoerd in de financiele situatie op het resultaten scherm zodat duidelijker is wat er onder transportkosten, onbalanskosten en energiebelasting valt.
+- We hebben in de achterkant de API structuur aangepast wat zal zorgen voor een stabielere verbindingen.
+
+Als je vragen hebt over deze updates of andere vragen over de BST dan hoor ik het graag.
 
 
 ## 3 september: Versie 1.3.00
 
 ### Features
-- Demo functionaliteit toegevoegd. Demo profielen kunnen nu worden aangemaakt. Gebruikers hebben hierbij een simulatie quotum welke een bepaalde tijd zijn te gebruiken. Hierbij zijn bepaalde functies uitgeschakeld. Na deze tijd heeft de gebruiker geen toegang meer tot de BST.
+Deze week hebben we weer een aantal bugfixes en updates gerealesed voor de Battery Simulation Tool. In verhouding wat minder nieuwe toevoegingen, omdat we bezig zijn met een aantal grotere projecten. Hier zullen we na de zomer meer over laten weten.
 
+De volgende updates zijn live gezet:
+- Waarschuwing negatieve ODN en BPM waarden. Wanneer er negatieve waarden zijn ingevuld in de Excel template zal er nu een waarschuwing worden gegeven aan het einde van stap 3. Daarnaast is aan de Excel template toegevoegd dat in deze kolommen positieve waarden ingevuld moeten worden.
 
 ### Bugfixes
+- Negatieve terugverdientijd: Wanneer er geen terugverdientijd mogelijk is zal een '-' worden weergegeven
+- Wijzigen naam simulatie: In sommige situaties werd bij het wijzigen van de simulatie naam deze niet overal gewijzigd. Dat is nu opgelost.
 - De waarde van het geselecteerde marktjaar wordt nu goed doorgegeven. 
 - Het probleem met de 'wachtwoord vergeten' functie is verholpen.
 - Het veranderen van het marktjaar in een bestaande simulatie zorgt er voor dat de tussentijdse berekening opnieuw wordt gedaan.
