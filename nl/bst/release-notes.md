@@ -13,7 +13,9 @@ dateCreated: 2024-06-17T13:30:00.000Z
 _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet overeen met de nieuwste versie? Vernieuw dan de pagina (Ctrl + R)._
 
 ## 14 november: Versie 1.5.00
-Vandaag hebben we een nieuwe versie van de BST beschikbaar gemaakt. Het is nu mogelijk om een cashflow diagram te maken o.b.v. Price Forward Curves van Montel en je kunt de inzet van een batterij simuleren op de EPEX day-ahead markt. Daarnaast hebben we een veel gevraagde feature toegevoegd: Geavanceerde instellingen. Hieronder een overzicht van alle updates:
+Vandaag hebben we een nieuwe versie van de BST beschikbaar gemaakt. Het is nu mogelijk om een cashflow diagram te maken o.b.v. Price Forward Curves van Montel en je kunt de inzet van een batterij simuleren op de EPEX day-ahead markt. Daarnaast hebben we een veel gevraagde feature toegevoegd: Geavanceerde instellingen. Hieronder een overzicht van alle updates.
+
+### Features
 - Cashflow diagram toegevoegd waarin de netto contante waarde van het batterijsysteem wordt weergegeven wanneer deze wordt ingezet op de onbalansmarkt. De opbrengsten in de toekomst zijn berekend m.b.v. Montel Price Forward Curves. Klik op deze link (Price Forward Curves for energy trading risk management) voor meer info. Op deze manier kunnen we een betere inschatting geven van de terugverdientijd van de investering.
 - Strategie toegevoegd waarbij de inzet van de batterij wordt geoptimaliseerd op de EPEX day-ahead markt. Met deze strategie wordt elektriciteit zo goedkoop mogelijk ingekocht en zo duur mogelijk verkocht op de day-ahead markt. Deze strategie wordt (nog) niet toegepast op het Repowered platform wat betekent dat het geen algoritme is dat ook in de praktijk wordt toegepast (zoals dat wel het geval is met de strategie voor de onbalansmarkt).
 - Navigatie menu toegevoegd waarmee de gebruiker kan terugkeren naar het hoofdscherm met alle simulaties en een nieuws en contact pagina met informatie over de nieuwste updates.
@@ -33,7 +35,7 @@ Ten slotte hebben we geavanceerde instellingen toegevoegd. We geven gebruikers n
 ## 7 november: Bericht over nieuwe features in versie 1.5.00
 We gaan volgende week een aantal grote updates doorvoeren in de BST. Ik wil jullie alvast op de hoogte brengen van deze updates en de impact die het zal hebben op de resultaten van simulaties.
 
-# Cashflow diagram over de levensduur van de batterij met inzet op de onbalansmarkt
+### Cashflow diagram over de levensduur van de batterij met inzet op de onbalansmarkt
 De afgelopen maanden zijn we bezig geweest met het ontwikkelen van een nieuwe methode voor het berekenen van de terugverdientijd en totale inkomsten van een batterij welke op de onbalansmarkt wordt ingezet. We gaan Price Forward Curves (PFC) van Montel inzetten om een betere inschatting te kunnen maken van de toekomstige inkomsten. Montel is in Europa een gerenommeerde partij voor het leveren van energy market intelligence en het maken van toekomstige markt representaties. We gaan de forward curve van scenario ‘Central’ om een betere inschatting te kunnen geven van de terugverdientijd van een batterij welke op de onbalansmarkt handelt. Elk kwartaal update Montel deze PFC om altijd up-to-date curves te kunnen leveren waar ontwikkelingen op de energiemarkten in zijn meegenomen. Meer informatie over deze PFC en Montel is hier te vinden.
 
 De volgende onderdelen worden meegenomen in de berekening:
@@ -49,7 +51,7 @@ Inkomsten:
 
 Ten slotte, het wordt mogelijk om een Excel bestand te downloaden waar deze kosten en inkomsten per jaar in worden weergegeven.
 
-# Strategie Day-ahead markt
+### Strategie Day-ahead markt
 We hebben de afgelopen maanden ook gewerkt aan een nieuwe strategie: optimalisatie op de day-ahead markt. Ten eerste is het belangrijk om te vermelden dat we (nog) geen batterijen daadwerkelijk aansturen op deze markt. Om al wel inzicht te kunnen bieden wat een batterij op deze markt zou kunnen verdienen hebben we een optimalisatie algoritme ontwikkelt speciaal voor de BST. Deze geeft niet perfect weer hoe de batterij in de praktijk zou handelen, maar zit hier wel in de buurt (90-100%). Daarnaast hebben we een aantal aannames moeten doen, welke we in de toekomst verder zullen aanscherpen en verbeteren.
 
 In het financiële overzicht worden de kosten voor inkoop van elektriciteit door de batterij opgeteld bij de ‘Leveringskosten stroom’ en de extra inkomsten worden opgeteld bij ‘Inkomsten teruglevering’.
