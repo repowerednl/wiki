@@ -43,13 +43,14 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 Vandaag hebben we een nieuwe versie van de Battery Simulation Tool gereleased. We hebben de volgende features toegevoegd of gewijzigd:
 - Financiële berekening zelfvoorzienende strategie is gecorrigeerd;
 - Energiebelasting voor het laden van de batterij van het net wordt niet meer meegenomen vanwege vrijstelling op energiebelasting;
-- Aanpassingen aan grafieken:
--     Y-as label energieprofiel aangepast naar vermogen in kW;
--     Naamgeving van grafieken in energieprofiel aangepast;
--     Y-as van grafiek zomer- en winterdag aangepast;
--     Titel van de Sankey diagram in de Energetische situatie veranderd naar 'Energiestromen op jaarbasis';
--     De kleuren van de Sankey diagram zijn aangepast;
 - De beschikbaarheid van de aansluiting voor de batterij wordt nu getoond bij de resultaten.
+
+Aanpassingen aan grafieken:
+- Y-as label energieprofiel aangepast naar vermogen in kW;
+- Naamgeving van grafieken in energieprofiel aangepast;
+- Y-as van grafiek zomer- en winterdag aangepast;
+- Titel van de Sankey diagram in de Energetische situatie veranderd naar 'Energiestromen op jaarbasis';
+- De kleuren van de Sankey diagram zijn aangepast;
 
 Later deze week implementeren we ook de volgende aanpassingen:
 - Power signal van de batterij wordt toegevoegd aan de zomer- en winterdag;
