@@ -40,22 +40,21 @@ _Onderaan de pagina staat welke versie van de BST je nu gebruikt. Komt dit niet 
 ## 7 juli: Versie 1.0.00
 
 ### Features
-- Tooltips worden nu gevuld met inhoud uit de Wiki
-- Typische zomer- en winterdag SOC (state of charge) van het lopende jaar toegevoegd aan de resultaten pagina. 
-- Demo (trial) label is toegevoegd. Dit is voorsorteren op de daadwerkelijke demo versie. 
-- Cypress E2E testing is toegevoegd.
-- De kleuren van de Sankey grafieken zijn aangepast (PV: #FFC700, Net: #C8D3D9) 
-- Titel van de Sankey grafiek in de Energetische Situatie op de resultaten pagina is veranderd van 'Energie Flows' naar 'Energiestromen op jaarbasis'
-- Het deployen van de code naar de Dev omgeving is geautomatiseerd middels een workflow. 
-- We hebben styling (logo en kleuren) van Novar toegevoegd.
-- NTB is verwijderd onder de kolomtekst "Aansturing en optimalisatie".
-- Definities vervangen in het Energie Profiel:
-    Energie (kWh) = Vermogen (kW)
-    Productie = Afname
-    Terugleveringcapaciteit = Teruglevering
-    Verbruik = Productie
-- Extra kleuren toegevoegd voor gebruik in grafieken (#ff870a, #1fc84a en '#408c8b')
-- De beschikbaarheid van de aansluiting voor (terug)levering wordt nu getoond bij de resultaten.
+Vandaag hebben we een nieuwe versie van de Battery Simulation Tool gereleased. We hebben de volgende features toegevoegd of gewijzigd:
+- Financiële berekening zelfvoorzienende strategie is gecorrigeerd;
+- Energiebelasting voor het laden van de batterij van het net wordt niet meer meegenomen vanwege vrijstelling op energiebelasting;
+- Aanpassingen aan grafieken:
+-     Y-as label energieprofiel aangepast naar vermogen in kW;
+-     Naamgeving van grafieken in energieprofiel aangepast;
+-     Y-as van grafiek zomer- en winterdag aangepast;
+-     Titel van de Sankey diagram in de Energetische situatie veranderd naar 'Energiestromen op jaarbasis';
+-     De kleuren van de Sankey diagram zijn aangepast;
+- De beschikbaarheid van de aansluiting voor de batterij wordt nu getoond bij de resultaten.
+
+Later deze week implementeren we ook de volgende aanpassingen:
+- Power signal van de batterij wordt toegevoegd aan de zomer- en winterdag;
+- ‘Levensduur batterij’ wordt verwijderd en vervangen door ‘Resterende cycli na bereiken terugverdientijd’;
+- Mogelijkheid om kosten voor aansturing en optimalisatie mee te nemen in de financiële berekening.
 
 ### Bugfixes
 - De tooltips zijn nu uitgelijnd met de bijbehorende tekst
