@@ -30,3 +30,5 @@ _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt de
 - Responsive design voor telefoons en andere kleine schermen.
 - Nieuwe asset pagina's voor algemene info en verwachte omzet.
 - Facturen zijn nu inzichtelijk via [Mijn Repowered](/account).
+
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/3314df3a-d9fa-408b-a081-f0309fb64f68" />
