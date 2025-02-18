@@ -10,6 +10,12 @@ dateCreated: 2024-03-13T13:06:08.526Z
 
 _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt deze achter op de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
 
+# 18 februari: Versie 6.4.2
+
+- De SDE beslissing word getoond op relevante assets.
+- CBC annotaties worden getoond
+- Het is nu mogelijk om portolios te selecteren
+
 # 17 januari: Versie 5.3.3
 
 - In het Assets menu onder [Info](/assets/information) en [Diensten](/assets/services) is nu meer informatie te vinden over respectievelijk SDE beschikkingen (mits van toepassing) en onze actieve diensten.
