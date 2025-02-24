@@ -15,6 +15,7 @@ _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt de
 - Er wordt meer informatie getoond bij assets waar van toepassing:
    - De inzet van CBC (capaciteitsbeperkend contract) in de tijdlijn onder [Assets > Analyse](/assets/analysis)
    - De SDE beschikking onder [Assets > Info](/assets/information)
+- Onder de motorkap worden financiële resultaten via een nieuwe systeem beheerd waarmee we meer transparantie kunnen garanderen. Helaas werkt dit niet met terugwerkende kracht, waardoor resultaten van vóór 2025 nog volgens het oude systeem werken. Beide varianten kunnen echter gewoon op dezelfde wijze worden bekeken op dit platform.
 
 # 17 januari: Versie 5.3.3
 
