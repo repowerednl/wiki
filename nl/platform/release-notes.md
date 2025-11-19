@@ -1,10 +1,14 @@
 ---
 title: Release notes
 description: Versie informatie van het Repower Smart Energy platform
-date: 2025-10-28T15:45:00.000Z
+date: 2025-11-19T11:40:00.000Z
 ---
 
 _Onderaan de pagina staat welke versie van het platform je nu gebruikt. Loopt deze achter op de nieuwste versie? Vernieuw dan de pagina (Ctrl + Shift + R)._
+
+# 19 november: Versie 9.14.2
+
+De Excel export van de resultaten is gewijzigd zodat deze qua naamgeving en volgorde overeenkomt met de weergave op Mijn Repowered. **Let op:** dit kan gevolgen hebben bij het verwerken van de export.
 
 # 28 oktober: Versie 9.11.0
 
